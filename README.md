@@ -1,8 +1,8 @@
 # CORS-JSONP
 代码使用方法：
 CORS文件夹和JSONP文件夹是独立的，互不影响。想测试哪个就进入哪个文件夹，以CORS为例：
-cd CORS/qq-com; node server.js 8888
-cd CORS/jack-com; node server.js 9990
+> cd CORS/qq-com; node server.js 8888
+> cd CORS/jack-com; node server.js 9990
 
 然后在主机的host文件里添加两行：
  127.0.0.1 qq.com
